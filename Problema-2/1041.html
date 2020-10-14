@@ -2,8 +2,75 @@
 <html>
 <head>
 	<title>Problema 1041</title>
+	<link rel="stylesheet" type="text/css" href="diseño-1041.css">
 </head>
 <body>
+<img id="bg1" src="../Fondo_pagina.jpg">
+	<center>
+	<a href="../index.html">
+		<img style="float: left; margin: 1px;" src="../Flecha-izquierda.png" width="50" height="50">
+	</a>
+	<section id="seccion-titulo">
+	<h12>URI Online Judge | 1041</h12></font>
+	<h1>Coordenadas de un punto</h1>
+	<h11> Timelimit: 1 </h11>
+	</section>
+	<br>
+	<section id="seccion">
+	<p>
+		Escriba un algoritmo que lea dos valores flotantes (x e y), que deben representar las <br>
+		coordenadas de un punto en un plano. A continuación, determine qué cuadrante pertenece el <br>
+		punto o si está sobre uno de los ejes cartesianos o el origen (x = y = 0).<br>
+		<br>
+		<img src="ejemplo-1041.png" width="250" height="250"><br>
+		Si el punto está en el origen, escriba el mensaje "Origem".<br>
+		<br>
+		Si el punto está sobre el eje X, escriba "Eixo X", de lo contrario si el punto está sobre <br>
+		el eje Y, escriba "Eixo Y".<br>
+    </p>
 
+	<h2> Entrada </h2> 
+	<p>
+		La entrada contiene las coordenadas de un punto.<br>
+	</p>
+
+	<h2> Salida </h2> 
+
+	<p>
+		La salida deberá mostrar en pantalla el cuadrante en el que se encuentra el punto.<br>
+	</p>
+
+	<br>
+	<table border="1">
+		<tr id="encabezado-tabla">
+			<td> Ejemplos entrada </td>
+			<td> Ejemplos salida </td>
+		</tr>
+		<tr>
+			<td> 4.5 -2.2 </td>
+			<td> Q4 </td>
+		</tr>
+		<tr>
+			<td> 0.1 0.1 </td>
+			<td> Q1</td>
+		</tr>
+		<tr>
+			<td> 0.0 0.0 </td>
+			<td> Origem</td>
+		</tr>
+	</table>
+
+	<h2>Tus valores de entrada</h2>
+	<div>
+	<input type="number" id="Numero1"> 
+	<input type="number" id="Numero2"> 
+	<input type="button" id="Boton" value="Pruebe">
+	</div>
+	<h2>Respuesta</h2>
+	<div id="div_resultado"></div>
+	<br>
+	<script type="text/javascript" src="formulas-1041.js">
+	</script>
+</section>
 </body>
 </html>
