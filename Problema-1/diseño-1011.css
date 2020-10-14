@@ -1,0 +1,35 @@
+#bg1 
+{
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#seccion
+{
+	border: white 8px outset;
+	border-right: white 8px outset;
+	border-radius: 15px;
+	background-color: white;
+	width: 1000px;
+}
+#seccion-titulo
+{
+	border: #66FFCC 8px outset;
+	border-right: #66FFCC 8px outset;
+	border-radius: 15px;
+	background-color: #66FFCC;
+	width: 1000px;
+}
+h2
+{
+	background-color: #66FFCC;
+}
+a
+{
+	background-color: #66FFCC;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}

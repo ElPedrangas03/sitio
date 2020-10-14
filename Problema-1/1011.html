@@ -2,35 +2,47 @@
 <html>
 <head>
 	<title>Problema 1011</title>
+	<link rel="stylesheet" type="text/css" href="diseño-1011.css">
 </head>
 <body>
+	<img id="bg1" src="../Fondo_pagina.jpg">
 	<center>
+	<a href="../index.html">
+		<img style="float: left; margin: 1px;" src="../Flecha-izquierda.png" width="50" height="50">
+	</a>
+	<section id="seccion-titulo">
 	<h12>URI Online Judge | 1011</h12></font>
-	<h1>Sphere</h1>
+	<h1>Esfera</h1>
 	<h11> Timelimit: 1 </h11>
+	</section>
 	<br>
+	<section id="seccion">
 	<p>
-		Make a program that calculates and shows the volume of a sphere being <br> provided the value of its radius (R) . The formula to calculate the <br>volume is: (4/3) * pi * R3. Consider (assign) for pi the value 3.14159. <br>
+		Haga un programa que calcule y muestre el volumen de una esfera mediante un radio (R) dado. <br>
+		La fórmula para calcular dicho volumen es: (4/3) * pi * R3. Considere asignar a Pi el <br>
+		valor: 3.14159.<br>
 		<br>
-		Tip: Use (4/3.0) or (4.0/3) in your formula, because some languages <br>(including C++) assume that the division's result between two integers<br> is another integer.<br>
+		Tip: Use (4/3.0) ó (4.0/3) en su fórmula, algunos lenguajes (incluyendo C++) asumen que la <br>
+		división entre dos enteros es otro entero.<br>
     </p>
 
-	<h2> Input </h2> 
+	<h2> Entrada </h2> 
 	<p>
-		The input contains a value of floating point (double precision).<br>
+		La entrada consiste de un valor entero.<br>
 	</p>
 
-	<h2> Output </h2> 
+	<h2> Salida </h2> 
 
 	<p>
-		The output must be a message "VOLUME" like the following example with<br> a space before and after the equal signal. The value must be presented<br> with 3 digits after the decimal point.<br>
+		La salida será el mensaje "VOLUME" como en el siguiente ejempo con un espacio antes y luego <br>
+		del igual. El valor debe ser presentado con 3 dígitos decimales.<br>
 	</p>
 
 	<br>
 	<table border="1">
 		<tr id="encabezado-tabla">
-			<td> Input Samples </td>
-			<td> Output Samples </td>
+			<td> Ejemplos entrada </td>
+			<td> Ejemplos salida </td>
 		</tr>
 		<tr>
 			<td> 3 </td>
@@ -44,12 +56,13 @@
 
 	<h2>Tus valores de entrada</h2>
 	<div>
-	<input type="text" id="Numero"> <input type="button" id="Boton" value="Pruebe">
+	<input type="number" id="Numero"> <input type="button" id="Boton" value="Pruebe">
 	</div>
 	<h2>Respuesta</h2>
 	<div id="div_resultado"></div>
 	<br>
-	<script type="text/javascript" src="">
+	<script type="text/javascript" src="formulas-1011.js">
 	</script>
+</section>
 </body>
 </html>
